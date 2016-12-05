@@ -1,0 +1,48 @@
+body
+{
+	/*overflow:hidden;*/
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+ background-color: white;
+ 
+  color:black;
+  
+  margin-bottom:-2%;
+  overflow:hidden;
+}
+.navbar-default .navbar-right li a
+{
+	color:white;
+}
+.navbar-fixed-left {
+  width: 20%;
+   height: 83%;
+  position: absolute;
+  border-radius: 0;
+ 
+  margin-top:-1.5%;
+  /*background-color:white;*/
+  
+}
+
+.navbar-fixed-left .navbar-nav > li {
+  float: none;  /* Cancel default li float: left */
+  width: 180px;
+  padding-left:15%;
+ 
+}
+.navbar-fixed-left .navbar-nav > li > a
+  {
+     z-index: 100;
+     color:white;
+	
+}
+.navbar-fixed-left + .container {
+  padding-left: 180px;
+}
+
